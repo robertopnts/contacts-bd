@@ -18,7 +18,7 @@ userRouter.get("",
                 ensureIsAuthMiddleware,
                 listUsersController
 )
-userRouter.get("/user",
+userRouter.get("/profile",
                 ensureIsAuthMiddleware,
                 retrieveUserController
 )
